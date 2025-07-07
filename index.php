@@ -14,9 +14,9 @@ include ("./database/conexion.php");
         <!-- <img src="./imagenes/gif1.gif" alt="Imagen random" class="imagengif"> -->
         <div class="container-login">
             <div class="container-main">Usuario: </div><br>
-            <div class="container-input"><input type="text" name="login_user" id="login_user" class="form-input"></div><br>
+            <div class="container-input"><input type="text" name="login_user" id="login_user" class="form-input" placeholder="Usuario"></div><br>
             <div class="container-main">Contrasenha: </div><br>
-            <div class="container-input"><input type="password" name="login_password" id="login_password" class="form-input"></div>
+            <div class="container-input"><input type="password" name="login_password" id="login_password" class="form-input" placeholder="Contrasenha"></div>
             <div class="container-button"><input type="submit" value="Iniciar Sesion" class="button-primary"></div>
         </div>
     </form>
