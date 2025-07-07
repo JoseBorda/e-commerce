@@ -2,12 +2,62 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+} 
+
+body {
+    display: flex;  
+}
+
+body, .container-login {
+    justify-content: center;
+    margin: 120px 90px;
 }
 
 .container-login {
-    background-color: blueviolet;
+    /* background-color: aqua; */
+    margin: 50px;
+    padding: 30px;
+    border: 4px dashed gold;
 }
 
-.container-main {
-    background-color: aqua;
+.container-main, .container-input, .container-button { /* cuando hay dos clases que van a tener los mismos elementos y mismos valores */
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+    /* margin: 0; */
+}
+
+.container-button, .button-primary {
+    margin: 5px;
+    padding: 5px;
+}
+
+.button-primary {
+    background-color: yellow;
+}
+
+.button-primary:hover {
+    background-color: gold;
+}
+
+.form-input {
+    /* background-color: bisque; */
+    border-radius: 5px;
+    width: 100px;
+}
+
+form {
+    /* background-color: wheat; */
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    border: 5px solid gold;
+}
+
+.imagengif {
+    /* background-color: aquamarine; */
+    width: 100px;
+    height: 50px;
+    display: flex;
+    margin: 50px;
 }
