@@ -18,6 +18,8 @@ body, .container-login {
     margin: 50px;
     padding: 30px;
     border: 4px dashed gold;
+    background-image: url("../imagenes/gif1.gif");
+    background-position: center;
 }
 
 .container-main, .container-input, .container-button { /* cuando hay dos clases que van a tener los mismos elementos y mismos valores */
@@ -25,6 +27,10 @@ body, .container-login {
     justify-content: center;
     padding: 3px;
     /* margin: 0; */
+}
+
+.container-main {
+    background-color: white;
 }
 
 .container-button, .button-primary {
